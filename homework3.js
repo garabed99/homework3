@@ -16,7 +16,7 @@ const student = function(firstName, age) {
     const report = student();
     console.log(report);
 	return firstName + " is " + age + " years old";
-}
+};
 
 //4th 
 const friends = function(friend1, friend2, friend3) {
