@@ -57,7 +57,7 @@ console.log(killDeathRatio(80,20));
 
 //8th
 const areaOfTriangle = function(base, height) {
-    return (0.5*(base * height)); 
+    return killDeathRatio (salary(base,height),2);
 };
 console.log(areaOfTriangle(4,9));
 
