@@ -13,9 +13,7 @@ console.log(alpha());
 
 //3rd 
 const student = function(firstName, age) {
-    const report = student();
-    console.log(report);
-	return firstName + " is " + age + " years old";
+	console.log(firstName + " is " + age + " years old");
 };
 
 //4th 
