@@ -32,11 +32,11 @@ console.log(friends("Garo", "Garabed", "Berg"));
 //5th
 const numbers = function(numb1, numb2) {
   if (numb1 === numb2) {
-    return "0";
+    return 0;
   } if (numb1 > numb2) {
-    return "1";
+    return 1;
 	} if (numb1 < numb2) {
-		return "-1";
+		return -1;
 	}
 };
 console.log(numbers(15,10));
@@ -67,10 +67,10 @@ console.log(numLength(86987));
 
 //10th
 const person = function (Fname, Lname, age) {
-    if ((Fname + " " + Lname).length > age) {
-    return "1";
+    if ((Fname + Lname).length > age) {
+    return 1;
 } else {
-    return "-1";
+    return -1;
 }
 };
 console.log(person("Max", "Jones", 18));
@@ -82,7 +82,7 @@ const runStuff = function (base, height, shape) {
     } else if (shape === "triangle") {
         return (0.5 * (base * height));
     } else {
-        return "-1";
+        return -1;
     }
 };
 console.log(runStuff(8,4, "triangle"));
