@@ -2,7 +2,7 @@
 const grades = function(first, second, third, final) {
     return ((first + second + third + final) / 4 );
 };
-const cs = grades(89, 98, 80, 79);
+const cs = grades(89, 98, 80, 89);
 console.log(cs);
 
 //2nd
